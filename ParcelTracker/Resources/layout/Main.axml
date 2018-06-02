@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ParcelNumberText"
+        android:hint="Enter Your Parcel Number:" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/com_prompt" />
+    <Spinner
+        android:id="@+id/CompanySpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/com_prompt" />
+    <Button
+        android:text="Scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ScanButton" />
+    <Button
+        android:text="History"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HistoryButton" />
+    <Button
+        android:text="Track"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TrackButton" />
+</LinearLayout>
